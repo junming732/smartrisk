@@ -1,0 +1,7 @@
+defaults:
+  - data: kaggle_disaster
+  - train: llm_text_classification
+  - llm: tinyllama_qlora
+
+mlflow:
+  tracking_uri: "./mlruns"

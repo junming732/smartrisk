@@ -1,0 +1,6 @@
+base_model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+bits: 4

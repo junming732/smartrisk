@@ -1,0 +1,4 @@
+name: kaggle_disaster_tweets
+train_csv: data/raw/kaggle-disaster-tweets/train.csv
+text_col: text
+label_col: target
